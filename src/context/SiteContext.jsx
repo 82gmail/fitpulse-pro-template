@@ -20,8 +20,8 @@ export const defaultSiteData = {
         ctaContact: 'Get in Touch',
         trainerImage: '/images/hero-trainer-placeholder.jpg',
         bgImage: '/images/gym-hero-bg-placeholder.jpg',
-        trainerName: 'FITPULSE PRO',
-        trainerCerts: 'NSCA • NASM • ACE Certified',
+        trainerName: 'VINAY JAWAI',
+        trainerCerts: 'Elite Strength & Transformation Coach',
     },
 
     // About
@@ -155,7 +155,7 @@ export const defaultSiteData = {
 
     // Footer / Social
     footer: {
-        bio: "FitPulse Pro is a premier fitness coaching service specializing in high-performance transformations through science-backed training and nutrition.",
+        bio: "Elite fitness coaching specializing in high-performance transformations through science-backed training and nutrition. Your journey to peak potential starts here.",
         instagram: 'https://instagram.com/fitpulsepro',
         youtube: 'https://youtube.com/fitpulsepro',
         facebook: 'https://facebook.com/fitpulsepro',
@@ -216,7 +216,7 @@ export const saveFirebaseUrl = saveJsonbinKey;
 
 // ─── localStorage ────────────────────────────────────────────────────────────
 const STORAGE_KEY = 'fitpulse_site_data';
-const STORAGE_VERSION = 'v1.0.0-template';
+const STORAGE_VERSION = 'v1.0.1-template';
 
 function loadFromStorage() {
     try {
